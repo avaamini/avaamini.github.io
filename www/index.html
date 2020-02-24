@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/seal_icon.png">
+  <link rel="icon" type="image/png" href="images/mit_logo2.png">
 </head>
 
 <body>
@@ -20,15 +20,17 @@
               <p style="text-align:center">
                 <name>Ava Soleimany</name>
               </p>
-              <p>I am a staff research scientist at <a href="https://ai.google/research">Google Research</a>, where I work on computer vision and computational photography.
+              <p> I am a PhD student in the <a href="https://biophysics.fas.harvard.edu/">Harvard Biophysics</a> program and at MIT, where I work with <a href="http://lmrt.mit.edu/">Sangeeta Bhatia</a> at the <a href="https://ki.mit.edu/">Koch Institute for Integrative Cancer Research</a>
+                and am supported by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a>.
               </p>
               <p>
-                At Google I've worked on <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://www.google.com/get/cardboard/jump/">Jump</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, and <a href="https://www.youtube.com/watch?v=JSnB06um5r4">Glass</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a> and funded by the <a href="http://www.nsfgrfp.org/">NSF GRFP</a>. I did my bachelors at the <a href="http://cs.toronto.edu">University of Toronto</a>.
+                Previously, I completed my Bachelor of Science in Computer Science and Molecular Biology at the Massachusetts Institute of Technology (MIT),
+                where I conducted research with <a href="https://be.mit.edu/directory/timothy-k-lu">Tim Lu</a> and was recognized as a <a href="https://soe.mit.edu/henry-ford-ii-scholar-award/">Henry Ford II Scholar</a>
+                and with the <a href="https://awards.mit.edu/awards/association-mit-alumnae-amita-senior-academic-award">AMITA Senior Academic Award</a>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:asolei@mit.edu">Email</a> &nbsp/&nbsp
-                <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp
+                <a href="data/Soleimany_CV.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=w_wosd4AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://twitter.com/apsoleimany">Twitter</a>
               </p>
@@ -41,10 +43,12 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
+              <heading>Research and Publications</heading>
               <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, depth, motion, paint, light, colors, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
+                My PhD research focuses on engineering novel diagnostics for the early detection of cancer. My work leverages tools from nanotechnology, machine learning and statistics,
+                chemical biology, and bioengineering to create new diagnostic and therapeutic biotechnologies.
               </p>
+              <strong>*Denotes co-first authorship</strong>
             </td>
           </tr>
         </tbody></table>
@@ -296,35 +300,71 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>
             <td>
-              <heading>Service</heading>
+              <heading>Teaching and Leadership</heading>
+              <p>
+              In addition to research, I am passionate about education and leadership, and strive to help and empower others to excel in their own pursuits.
+              </p>
             </td>
           </tr>
         </tbody></table>
+
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
-            <td width="75%" valign="center">
-              <a href="http://cvpr2019.thecvf.com/area_chairs">Area Chair, CVPR 2019</a>
-              <br>
-              <br>
-              <a href="http://cvpr2018.thecvf.com/organizers/area_chairs">Area Chair, CVPR 2018</a>
-            </td>
-          </tr>
-          <tr>
+          <tr onmouseout="p_deep_learning_stop()" onmouseover="p_deep_learning_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/cs188.jpg" alt="cs188">
+              <div class="one">
+                <div class="two" id='p_deep_learning_image'><img src='images/p_deep_learning_after.png'></div>
+                <img src='images/p_deep_learning_before.png'>
+              </div>
+              <script type="text/javascript">
+                function p_deep_learning_start() {
+                  document.getElementById('p_deep_learning_image').style.opacity = "1";
+                }
+
+                function p_deep_learning_stop() {
+                  document.getElementById('p_deep_learning_image').style.opacity = "0";
+                }
+                p_2016_science_stop()
+              </script>
             </td>
-            <td width="75%" valign="center">
-              <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
-              <br>
-              <br>
-              <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-              <br>
-              <br>
-              <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://introtodeeplearning.com">
+                <papertitle>Introduction to Deep Learning, MIT 6.S191</papertitle>
+              </a>
+              <p>I am an organizer and lecturer for <a href="http://introtodeeplearning.com">Introduction to Deep Learning (6.S191)</a>, MIT’s official introductory course on deep learning foundations and applications.
+              Together with <a href="https://www.mit.edu/~amini/">Alexander Amini</a>, I have organized and developed all aspects of the course, including developing the curriculum, teaching the lectures, creating software labs, and collaborating with industry sponsors.
+              All materials can be found online on the <a href="http://introtodeeplearning.com">course website</a>.</p>
             </td>
           </tr>
-        </tbody></table>
+
+      <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/harvard.png"></td>
+          <td width="75%" valign="center">
+            <a href="https://locator.tlt.harvard.edu/course/colgsas-122422">Teaching Fellow, Harvard MCB294, Fall 2019</a>, with <a href="https://www.mcb.harvard.edu/directory/nancy-kleckner/">Nancy Kleckner</a>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <img src="images/mit.png" alt="mit_teaching">
+          </td>
+          <td width="75%" valign="center">
+            <a href="https://stellar.mit.edu/S/course/7/sp16/7.05/index.html"> Teaching Assistant, MIT 7.05, Spring 2016</a>, with <a href="https://ki.mit.edu/people/faculty/vanderheiden">Matt Vander Heiden</a> and <a href="https://ki.mit.edu/people/faculty/yaffe">Mike Yaffe</a>
+            <br>
+            <br>
+            <a href="https://stellar.mit.edu/S/course/7/sp15/7.05/index.html"> Teaching Assistant, MIT 7.05, Spring 2016</a>, with <a href="https://ki.mit.edu/people/faculty/vanderheiden">Matt Vander Heiden</a> and <a href="https://ki.mit.edu/people/faculty/yaffe">Mike Yaffe</a>
+            <br>
+            <br>
+            <a href="https://www.mitathletics.com/sports/w-tennis/2015-16/roster">Captain, MIT Varsity Women's Tennis, 2014-2016</a>
+            <br>
+            <br>
+            <a href="https://www.mitathletics.com/sports/w-tennis/">MIT Varsity Women's Tennis, 2012-2016</a>
+          </td>
+        </tr>
+      </tbody></table>
+
+
+
         <p>
           <a href="https://jonbarron.info/">page template</a>
         </p>
