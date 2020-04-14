@@ -1,6 +1,6 @@
 user=asolei
 server=athena.dialup.mit.edu
-path=/afs/athena.mit.edu/user/a/s/asolei/www/
+path=/afs/athena.mit.edu/user/a/s/asolei/
 local=www
 
 
