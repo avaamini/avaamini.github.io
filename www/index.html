@@ -54,6 +54,41 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="p_2020_azp_stop()" onmouseover="p_2020_azp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='p_2020_azp_image'><img src='images/papers/p_2020_azp_after.jpg'></div>
+                <img src='images/papers/p_2020_azp_before.jpg'>
+              </div>
+              <script type="text/javascript">
+                function p_2020_azp_start() {
+                  document.getElementById('p_2020_azp_image').style.opacity = "1";
+                }
+
+                function p_2020_azp_stop() {
+                  document.getElementById('p_2020_azp_image').style.opacity = "0";
+                }
+                p_2020_azp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.biorxiv.org/content/10.1101/2020.07.29.227413v1">
+                <papertitle>Activatable zymography probes enable in situ localization of protease dysregulation in cancer</papertitle>
+              </a>
+              <br>
+              <strong>Ava P. Soleimany*</strong>,
+              Jesse D. Kirkpatrick*, Susan Su, Jaideep S. Dudani, Qian Zhong, Ahmet Bekdemir,
+              <a href="https://lmrt.mit.edu/about">Sangeeta N. Bhatia</a>
+              <br>
+              <em>bioRxiv</em>, 2020
+              <br>
+              <a href="https://www.biorxiv.org/content/10.1101/2020.07.29.227413v1.full.pdf">pdf</a>
+              <br>
+              <p>We engineer a new class of enzyme activity probes that can be applied to fresh-frozen tissue sections to spatially localize
+                protease activty, enabling new insights into the biology of protease dysregulation.</p>
+            </td>
+          </tr>
+
           <tr onmouseout="p_2020_vax_stop()" onmouseover="p_2020_vax_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -208,44 +243,6 @@
             </td>
           </tr>
 
-          <tr onmouseout="p_2019_malaria_stop()" onmouseover="p_2019_malaria_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='p_2019_malaria_image'><img src='images/papers/p_2019_malaria_after.jpg'></div>
-                <img src='images/papers/p_2019_malaria_before.jpg'>
-              </div>
-              <script type="text/javascript">
-                function p_2019_malaria_start() {
-                  document.getElementById('p_2019_malaria_image').style.opacity = "1";
-                }
-
-                function p_2019_malaria_stop() {
-                  document.getElementById('p_2019_malaria_image').style.opacity = "0";
-                }
-                p_2019_malaria_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/pdf/1912.00262.pdf">
-                <papertitle>Image segmentation of liver stage malaria infection with spatial uncertainty sampling</papertitle>
-              </a>
-              <br>
-
-              <strong>Ava P. Soleimany</strong>,
-              <a href="http://harinisuresh.com/">Harini Suresh</a>,
-              <a href="https://josejg.com/">Jose Javier Gonzalez Ortiz</a>,
-              <a href="https://dmshanmugam.github.io/">Divya Shanmugam</a>,
-              Nil Gural,
-              <a href="https://people.csail.mit.edu/guttag/">John Guttag</a>,
-              <a href="https://lmrt.mit.edu/about">Sangeeta N. Bhatia</a>
-              <br>
-              <em>ICML Workshop on Computational Biology</em>, 2019 &nbsp <font color="red"></font>
-              <br>
-              <p>Convolutional neural networks for automated segmentation and uncertainty estimation of microscopy images of
-                malaria infection.</p>
-            </td>
-          </tr>
-
           <tr onmouseout="p_2019_gold_stop()" onmouseover="p_2019_gold_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -284,6 +281,45 @@
               <p>By leveraging the unique properties of catalytic nanomaterials, we develop a simple color-change urine test for detection of cancer in mice.</p>
             </td>
           </tr>
+
+
+                    <tr onmouseout="p_2019_malaria_stop()" onmouseover="p_2019_malaria_start()">
+                      <td style="padding:20px;width:25%;vertical-align:middle">
+                        <div class="one">
+                          <div class="two" id='p_2019_malaria_image'><img src='images/papers/p_2019_malaria_after.jpg'></div>
+                          <img src='images/papers/p_2019_malaria_before.jpg'>
+                        </div>
+                        <script type="text/javascript">
+                          function p_2019_malaria_start() {
+                            document.getElementById('p_2019_malaria_image').style.opacity = "1";
+                          }
+
+                          function p_2019_malaria_stop() {
+                            document.getElementById('p_2019_malaria_image').style.opacity = "0";
+                          }
+                          p_2019_malaria_stop()
+                        </script>
+                      </td>
+                      <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="https://arxiv.org/pdf/1912.00262.pdf">
+                          <papertitle>Image segmentation of liver stage malaria infection with spatial uncertainty sampling</papertitle>
+                        </a>
+                        <br>
+
+                        <strong>Ava P. Soleimany</strong>,
+                        <a href="http://harinisuresh.com/">Harini Suresh</a>,
+                        <a href="https://josejg.com/">Jose Javier Gonzalez Ortiz</a>,
+                        <a href="https://dmshanmugam.github.io/">Divya Shanmugam</a>,
+                        Nil Gural,
+                        <a href="https://people.csail.mit.edu/guttag/">John Guttag</a>,
+                        <a href="https://lmrt.mit.edu/about">Sangeeta N. Bhatia</a>
+                        <br>
+                        <em>ICML Workshop on Computational Biology</em>, 2019 &nbsp <font color="red"></font>
+                        <br>
+                        <p>Convolutional neural networks for automated segmentation and uncertainty estimation of microscopy images of
+                          malaria infection.</p>
+                      </td>
+                    </tr>
 
           <tr onmouseout="p_2019_convection_stop()" onmouseover="p_2019_convection_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
